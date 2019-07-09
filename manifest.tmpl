@@ -1,0 +1,19 @@
+image: toolhippie/jjb:latest
+manifests:
+  -
+    image: toolhippie/jjb:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: toolhippie/jjb:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  -
+    image: toolhippie/jjb:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
