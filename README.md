@@ -1,6 +1,6 @@
-# Jenkins Job Builder
+# jjb
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/jjb/status.svg)](https://github.dronehippie.de/toolhippie/jjb)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/jjb/status.svg)](https://cloud.drone.io/toolhippie/jjb)
 [![](https://images.microbadger.com/badges/image/toolhippie/jjb:latest.svg)](https://microbadger.com/images/toolhippie/jjb:latest "Get your own image badge on microbadger.com")
 
 TBD
