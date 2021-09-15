@@ -8,4 +8,4 @@ ENV JJB_VERSION=3.10.0
 RUN apk update && \
   apk upgrade && \
   pip3 install -U jenkins-job-builder==${JJB_VERSION} && \
-  rm -rf /var/cache/apk/*
+  rm -rf /var/cache/apk/* /root/.cache
