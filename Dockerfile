@@ -3,7 +3,7 @@ ENTRYPOINT [""]
 ENV PY_COLORS=1
 
 # renovate: datasource=pypi depName=jenkins-job-builder
-ENV JJB_VERSION=3.10.0
+ENV JJB_VERSION=3.11.0
 
 RUN apk update && \
   apk upgrade && \
