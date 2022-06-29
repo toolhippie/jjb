@@ -3,10 +3,12 @@
     "extends": [
         "github>webhippie/renovate:docker"
     ],
-    "packageRules": [{
-        "groupName": "jjb packages",
-        "matchDatasources": [
-            "pypi"
-        ]
-    }]
+    "packageRules": [
+        {
+            "groupName": "jjb packages",
+            "matchDatasources": [
+                "pypi"
+            ]
+        }
+    ]
 }
